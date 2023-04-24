@@ -1,0 +1,22 @@
+/*Pour les liens */
+a{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*Pour les Titres */
+h1{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*Pour les paragraphes */
+p{
+    font-family: 'Manrope', sans-serif;
+}
+
+/*Pour les listes */
+ul{
+    font-family: 'Manrope', sans-serif;
+}
