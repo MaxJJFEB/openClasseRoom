@@ -1,6 +1,6 @@
 /*Pour les liens */
 a{
-    color: black;
+    color: b#242424;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -8,15 +8,32 @@ a{
 /*Pour les Titres */
 h1{
     font-family: 'Montserrat', sans-serif;
-
+    color: #F9F8FF;
 }
 
 /*Pour les paragraphes */
 p{
     font-family: 'Manrope', sans-serif;
+    color: #F9F8FF;
 }
 
 /*Pour les listes */
 ul{
     font-family: 'Manrope', sans-serif;
+    color: #F9F8FF;
+}
+
+/*Pour les DivHB*/
+.divHB{
+    background: white;
+}
+
+/*Pour les DivExtra*/
+.divExtra{
+    background: linear-gradient(#8e86b5, #acaeed);
+}
+
+/*Pour le Body*/
+body{
+    background: #1f2039;
 }
