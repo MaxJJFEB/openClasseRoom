@@ -31,9 +31,15 @@ ul{
 /*Pour les DivExtra*/
 .divExtra{
     background: linear-gradient(#8e86b5, #acaeed);
+    border-radius: 50px;
 }
 
 /*Pour le Body*/
 body{
     background: #1f2039;
+}
+
+.aPPUl{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
 }
