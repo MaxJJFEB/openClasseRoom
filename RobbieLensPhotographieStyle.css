@@ -2,13 +2,22 @@
 a{
     color: b#242424;
     font-family: 'Montserrat', sans-serif;
-
+}
+a:hover{
+    text-decoration: underline;
 }
 
 /*Pour les Titres */
 h1{
     font-family: 'Montserrat', sans-serif;
     color: #F9F8FF;
+    text-align:left ;
+}
+
+/*Pour l'image principal*/
+img[title="Ma photo"]:hover{
+    /* filter: brightness(2); */
+    filter: grayscale(100%)
 }
 
 /*Pour les paragraphes */
@@ -27,13 +36,19 @@ ul{
 .divHB{
     background: white;
 }
+.divHB:hover{
+    opacity:0.5
+}
 
 /*Pour les DivExtra*/
 .divExtra{
     background: linear-gradient(#8e86b5, #acaeed);
     border-radius: 50px;
 }
-
+.divExtra:hover{
+    color:linear-gradient(#696484, #8788BA);
+    opacity:0.25
+}
 /*Pour le Body*/
 body{
     background: #1f2039;
