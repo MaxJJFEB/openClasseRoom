@@ -58,3 +58,23 @@ body{
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
 }
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main{
+    padding: 80px;
+}
+.mainAPropos{
+    margin: auto;
+}
+.h1Services{
+    margin-top: 20px;
+}
