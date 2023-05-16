@@ -10,20 +10,21 @@ a:hover{
 /*Pour les Titres */
 h1{
     font-family: 'Montserrat', sans-serif;
-    color: #F9F8FF;
-    text-align:left ;
-}
-
-/*Pour l'image principal*/
-img[title="Ma photo"]:hover{
-    /* filter: brightness(2); */
-    filter: grayscale(100%)
+    color: #a5b4fc;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 67px;
 }
 
 /*Pour les paragraphes */
 p{
     font-family: 'Manrope', sans-serif;
     color: #F9F8FF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
 }
 
 /*Pour les listes */
@@ -31,50 +32,141 @@ ul{
     font-family: 'Manrope', sans-serif;
     color: #F9F8FF;
 }
-
-/*Pour les DivHB*/
-.divHB{
-    background: white;
-}
-.divHB:hover{
-    opacity:0.5
-}
-
 /*Pour les DivExtra*/
 .divExtra{
     background: linear-gradient(#8e86b5, #acaeed);
     border-radius: 50px;
+    padding: 21px 38px;
+    width: 306px;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.divExtraString{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 .divExtra:hover{
     color:linear-gradient(#696484, #8788BA);
     opacity:0.25
-}
-/*Pour le Body*/
-body{
-    background: #1f2039;
 }
 
 .aPPUl{
     border-right: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
 }
-
+body{
+    margin: 0px;
+}
+/*Header----------------------------------------------------------------------- */
 header{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    background: white;
+    width: -webkit-fill-available;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img[title="Robbie Lens Acceuil"]{
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+}
+/*Pour les DivHB*/
+.divHB:hover{
+    opacity:0.5
+}
+.divHB2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
 }
 
 footer{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-main{
-    padding: 80px;
-}
 .mainAPropos{
     margin: auto;
 }
 .h1Services{
     margin-top: 20px;
+}
+/*Acceuil section 01----------------------------------------------------- */
+.acceuilPresentation{
+    height: 653px;/*trouvé une solution*/
+    background-color: #1f2039;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-left:40px ;
+}
+.acceuilTitre{
+    width: 379px;
+    height: 134px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.acceuilTexte{
+    width: 409px;
+    height: 108px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Pour l'image principal*/
+img[title="Ma photo"]{
+    width: 419px;
+    height: 425px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    padding-top: 108px;
+}
+
+img[title="Ma photo"]:hover{
+    /* filter: brightness(2); */
+    filter: grayscale(100%);
+    }
+
+/*Acceuil section 02-----------------------------------------------------------*/
+.acceuilMonDernierProjet{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    flex-wrap: wrap;
+    gap: 10px;
+    margin:40px ;
+}
+.imagePaysage{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 43px;
+    text-align: center;
+    color: #1F2039;
 }
