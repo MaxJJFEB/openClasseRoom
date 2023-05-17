@@ -107,14 +107,21 @@ footer{
 }
 /*Acceuil section 01----------------------------------------------------- */
 .acceuilPresentation{
-    height: 653px;/*trouvé une solution*/
     background-color: #1f2039;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;    
+    flex-direction: row;
+    justify-content: center;    
     flex-wrap: wrap;
     gap: 40px;
     padding-left:40px ;
+}
+
+/*Pour le titre et le texte*/
+.acceuilTitreTexte{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 .acceuilTitre{
     width: 379px;
@@ -137,6 +144,7 @@ img[title="Ma photo"]{
     flex-wrap: wrap;
     padding: 25px;
     padding-top: 108px;
+    padding-bottom: 50px;
 }
 
 img[title="Ma photo"]:hover{
