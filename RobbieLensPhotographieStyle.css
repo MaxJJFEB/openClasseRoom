@@ -208,3 +208,43 @@ h2{
     height: 100%;
     object-fit: cover
 }
+
+.imgHoverContener{
+    position: relative;
+}
+
+.imgHover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.img2Hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    display: none;
+}
+
+.imgHoverContener:hover .imgHover{
+    display: flex;
+}
+
+.imgHoverContener:hover .img2Hover{
+    display: flex;
+}
